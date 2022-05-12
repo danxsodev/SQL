@@ -30,8 +30,8 @@ create table funcionario (
 	--Excluir objetos do database--
 	drop table funcionario
 
-	--Criar tabela computador--
-	create table computador (
+--Criar tabela computador--
+create table computador (
 	id_computador int primary key identity(1,1),
 	ds_computador varchar(20) not null,
 	ds_marca varchar(100) not null,
